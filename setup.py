@@ -6,6 +6,6 @@ pHashModule = Extension('pHash',
 		    libraries = ['pHash'])
 
 setup (name = 'pHash',
-       version = '0.1',
+       version = '0.1.1',
        description = 'perceptual hashing',
        ext_modules = [pHashModule])
